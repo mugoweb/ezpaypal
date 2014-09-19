@@ -118,9 +118,13 @@ class eZPaypalChecker extends eZPaymentCallbackChecker
             $server = substr( $server, $pos + 3 );
 
         if( $port == 443 )
+	{
             $openServer = 'ssl://' . $server;
+	}
         else
+	{
             $openServer = $server;
+	}
 
         $fp = fsockopen( $openServer, $port, $errno, $errstr, $timeout );
 
