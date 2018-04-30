@@ -47,9 +47,9 @@ class eZPaypalChecker extends eZPaymentCallbackChecker
       Constructor.
      */
 
-    function eZPaypalChecker( $iniFile )
+    function __construct( $iniFile )
     {
-        $this->eZPaymentCallbackChecker( $iniFile );
+        parent::__construct( $iniFile );
         $this->logger = eZPaymentLogger::CreateForAdd( 'var/log/eZPaypalChecker.log' );
     }
 

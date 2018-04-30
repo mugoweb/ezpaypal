@@ -47,7 +47,7 @@ class eZPaypalGateway extends eZRedirectGateway
       Constructor.
      */
 
-    function eZPaypalGateway()
+    function __construct()
     {
         //__DEBUG__
         $this->logger = eZPaymentLogger::CreateForAdd( "var/log/eZPaypalType.log" );
