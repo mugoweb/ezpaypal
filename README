@@ -3,7 +3,9 @@ eZ Paypal Payment Gateway extension [ExtensionVersion] README
 What is the eZ Paypal Payment Gateway extension?
 ================================================
 
-Payment gateway for Paypal
+Payment gateway for the Paypal NVP API which is a redirection based API.
+
+Provides and works with the eZ Publish shop and workflow systems
 
 
 eZ Paypal Payment Gateway version

@@ -95,6 +95,14 @@ Installing eZ Paypal Payment Gateway extension
    ActiveAccessExtensions[]=ezpaypal
 
 
+Tips
+====
+
+- Check to add workflow event (redirect ezpaypal gateway)
+- Check to add workflow event to trigger (example: shop confirmorder before)
+- Check your paypal.com account to allow payment redirection from insecure clients.
+
+
 Troubleshooting
 ===============
 
