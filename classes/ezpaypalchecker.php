@@ -176,7 +176,7 @@ class eZPaypalChecker extends eZPaymentCallbackChecker
         $order = eZOrder::fetch( $this->order->ID );
         $this->order = $order;
 
-        $this->order->modifyStatus( 1000 );
+        $this->order->modifyStatus( $this->ini->variable( 'OrderSettings', 'PaymentMadeOrderStatusID' ) );
     }
 
 }
