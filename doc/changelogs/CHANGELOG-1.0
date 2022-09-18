@@ -1,3 +1,7 @@
+Changes for 1.2
+
+- Fixed issue with successfull payment confirmed order status ID by creating new ini variable to allow for greater use.
+
 Changes for 1.1
 
 - Fixed issues with paypal server/notification url.
